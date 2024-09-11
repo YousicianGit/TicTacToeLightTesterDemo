@@ -1,14 +1,13 @@
-using  com.marufhow.tictactoe.script.utility;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace com.marufhow.tictactoe.script
 {
   
-    public class UIManager : MonoBehaviour
+    public class UIBehaviour : MonoBehaviour
     {
-        [SerializeField] private TextMeshProUGUI gameStatusText; 
+       // [SerializeField] private TextMeshProUGUI gameStatusText; 
+        [SerializeField] private Text gameStatusText; 
         [SerializeField] private Button restartButton;
         [SerializeField] private GameObject containerPanel;
         private void OnEnable()

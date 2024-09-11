@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using com.marufhow.tictactoe.script.utility;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace com.marufhow.tictactoe.script
 {

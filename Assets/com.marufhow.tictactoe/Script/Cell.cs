@@ -1,7 +1,5 @@
 using System;
-using com.marufhow.tictactoe.script;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace com.marufhow.tictactoe.script
 {
