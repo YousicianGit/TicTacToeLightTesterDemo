@@ -105,7 +105,7 @@ MonoBehaviour:
   - _toBeBuilt: 1
     _path: Assets/com.marufhow.tictactoe/Scenes/TicTacToe.unity
     _buildIndex: 0
-  platform: 2
+  platform: 1
   StandaloneTarget: 2
   RanInEditor: 0
   ScenePathDisplayed: 0
