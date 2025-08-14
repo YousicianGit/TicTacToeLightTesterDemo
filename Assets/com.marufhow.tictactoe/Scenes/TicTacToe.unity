@@ -303,6 +303,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217183538}
   m_CullTransparentMesh: 1
+--- !u!1 &373127295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 373127297}
+  - component: {fileID: 373127296}
+  m_Layer: 0
+  m_Name: LightServer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &373127296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373127295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425274e8b05d048d787d7d763f2b1e85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &373127297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373127295}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,6 +1342,10 @@ PrefabInstance:
     - target: {fileID: 1089723466308920510, guid: 9380988ce514e8b4ca9c27da85a88fbb, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 1270056441211473399, guid: 9380988ce514e8b4ca9c27da85a88fbb, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2330851160775722056, guid: 9380988ce514e8b4ca9c27da85a88fbb, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -2552,3 +2600,4 @@ SceneRoots:
   - {fileID: 1829707370}
   - {fileID: 1201734690}
   - {fileID: 1019998239}
+  - {fileID: 373127297}
