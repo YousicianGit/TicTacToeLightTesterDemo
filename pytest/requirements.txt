@@ -1,0 +1,8 @@
+AltTester-Driver==2.2.5
+pytest~=8.3.5
+pytest-html
+assertpy==0.14
+virtualenv
+allure-pytest
+allure-combine
+websockets~=15.0.1
